@@ -6,6 +6,7 @@ new Image().src = "joker.jpg";
 new Image().src = "laugh.jpg";
 
 new Audio().src = "!.mp3";
+new Audio().src = "angry.mp3";
 new Audio().src = "eat.mp3";
 new Audio().src = "fly.mp3";
 new Audio().src = "fxxk.mp3";
