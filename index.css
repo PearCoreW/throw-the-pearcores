@@ -2,11 +2,17 @@ body {
     background: #7c7c7c;
 }
 
+button#action {
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+
 div#LNN {
     display: grid;
     position: relative;
-    top: 400px;
-    left: 40px;
+    top: 200px;
+    left: 600px;
     width: 135px;
 }
 
@@ -23,6 +29,7 @@ img#face {
 
 img#Li {
     position: relative;
-    top: 40px;
-    left: 700px;
+    top: -40px;
+    left: 1300px;
+    display: none;
 }
