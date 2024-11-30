@@ -38,13 +38,13 @@ async function action() {
     sound.play();
 
     while(true) {
-        if(Li.style.left == "1200px") {
+        if(Li.style.left == "1000px") {
            face.src = "afraid.jpg";
         }
         if(Li.style.left == "-500px") {
             break;
         }
-        Li.style.left = String(1300 - count) + "px";
+        Li.style.left = String(1100 - count) + "px";
         count = count + 5;
         await sleep(1);
     }
