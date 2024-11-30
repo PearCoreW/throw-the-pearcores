@@ -1,0 +1,28 @@
+body {
+    background: #7c7c7c;
+}
+
+div#LNN {
+    display: grid;
+    position: relative;
+    top: 400px;
+    left: 40px;
+    width: 135px;
+}
+
+img#body {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+img#face {
+    position: relative;
+    top: -153px;
+    left: 60px;
+}
+
+img#Li {
+    position: relative;
+    top: 40px;
+    left: 700px;
+}
