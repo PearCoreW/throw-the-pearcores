@@ -55,4 +55,5 @@ async function action() {
     sound.src = "fxxk.mp3";
     sound.play();
     await sleep(5000);
+    window.open("https://pearpit.github.io/throw-the-pearpits/menu.html","_self");
 }
