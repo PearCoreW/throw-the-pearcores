@@ -12,7 +12,7 @@ div#LNN {
     display: grid;
     position: relative;
     top: 200px;
-    left: 600px;
+    left: 400px;
     width: 135px;
 }
 
@@ -30,6 +30,6 @@ img#face {
 img#Li {
     position: absolute;
     top: 200px;
-    left: 1300px;
+    left: 1000px;
     display: none;
 }
