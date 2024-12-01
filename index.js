@@ -1,20 +1,18 @@
+const music = document.getElementById("music");
+const sound = document.getElementById("sound");
+const face = document.getElementById("face");
+const Li = document.getElementById("Li");
+
 new Image().src = "LiHe.png";
 new Image().src = "afraid.jpg";
 new Image().src = "angry.jpg";
 new Image().src = "fxxk.jpg";
-new Image().src = "joker.jpg";
-new Image().src = "laugh.jpg";
 
-new Audio().src = "!.mp3";
-new Audio().src = "angry.mp3";
 new Audio().src = "eat.mp3";
 new Audio().src = "fly.mp3";
+new Audio().src = "!.mp3";
+new Audio().src = "angry.mp3";
 new Audio().src = "fxxk.mp3";
-
-const music = document.getElementById("music");
-const sound = document.getElementById("sound");
-const Li = document.getElementById("Li");
-const face = document.getElementById("face");
 
 var count = 0;
 
