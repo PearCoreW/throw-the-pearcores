@@ -16,6 +16,10 @@ new Audio().src = "fxxk.mp3";
 
 var count = 0;
 
+window.onload = function() {
+    document.getElementById("action").onclick = "action()";
+    document.getElementById("action").value = "Action!";
+}
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
