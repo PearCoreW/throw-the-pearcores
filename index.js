@@ -52,7 +52,7 @@ async function action() {
         if(Li.style.left == "-100px") {
             break;
         }
-        Li.style.left = String(1200 - count) + "px";
+        Li.style.left = String(1100 - count) + "px";
         Li.style.top = String(130 + count/4) + "px";
         count = count + 5;
         await sleep(1);
@@ -61,7 +61,7 @@ async function action() {
     face.src = "angry.jpg";
     soundLNN.src = "angry.mp3";
     soundLNN.play();
-    Li.style.left = "1200px";
+    Li.style.left = "1100px";
     Li.style.top = "130px";
     await sleep(1000);
     soundLi.src = "fly.mp3";
@@ -71,7 +71,7 @@ async function action() {
         if(Li.style.left == "-100px") {
             break;
         }
-        Li.style.left = String(1200 - count) + "px";
+        Li.style.left = String(1100 - count) + "px";
         Li.style.top = String(130 + count/4) + "px";
         count = count + 5;
         await sleep(1);
@@ -81,7 +81,7 @@ async function action() {
     soundLNN.src = "fxxk.mp3";
     soundLNN.play();
     await sleep(500);
-    Li.style.left = "1200px";
+    Li.style.left = "1100px";
     Li.style.top = "130px";
     await sleep(800);
     soundLi.src = "fly.mp3";
@@ -105,7 +105,7 @@ async function action() {
         if(Li.style.left == "-100px") {
             break;
         }
-        Li.style.left = String(1200 - count) + "px";
+        Li.style.left = String(1100 - count) + "px";
         Li.style.top = String(130 + count/4) + "px";
         count = count + 5;
         await sleep(1);
