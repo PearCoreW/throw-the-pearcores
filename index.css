@@ -11,7 +11,7 @@ button#action {
 div#LNN {
     display: grid;
     position: relative;
-    top: 300px;
+    top: 350px;
     left: 200px;
     width: 135px;
     height: 230px;
@@ -33,6 +33,6 @@ img#face {
 img#Li {
     position: absolute;
     top: 130px;
-    left: 1200px;
+    left: 1000px;
     display: none;
 }
