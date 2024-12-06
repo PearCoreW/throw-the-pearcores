@@ -53,7 +53,7 @@ async function action() {
             break;
         }
         Li.style.left = String(1100 - count) + "px";
-        Li.style.top = String(130 + count/4) + "px";
+        Li.style.top = String(130 + count/3.5) + "px";
         count = count + 5;
         await sleep(1);
     }
@@ -72,7 +72,7 @@ async function action() {
             break;
         }
         Li.style.left = String(1100 - count) + "px";
-        Li.style.top = String(130 + count/4) + "px";
+        Li.style.top = String(130 + count/3.5) + "px";
         count = count + 5;
         await sleep(1);
     }
@@ -106,7 +106,7 @@ async function action() {
             break;
         }
         Li.style.left = String(1100 - count) + "px";
-        Li.style.top = String(130 + count/4) + "px";
+        Li.style.top = String(130 + count/3.5) + "px";
         count = count + 5;
         await sleep(1);
     }
