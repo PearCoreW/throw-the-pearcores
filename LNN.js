@@ -1,5 +1,9 @@
-var count = -1;
+const LNN = document.getElementById("LNN");
+const body = document.getElementById("body");
+const face = document.getElementById("face");
 
-function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+var reversal = false;
+
+function LNNReversal() {
+    if()
 }
