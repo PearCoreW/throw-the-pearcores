@@ -4,16 +4,18 @@ body {
 
 button#action {
     position: relative;
-    top: 50px;
-    left: 500px;
+    top: 200px;
+    left: 300px;
 }
 
 div#LNN {
     display: grid;
     position: relative;
-    top: 200px;
-    left: 400px;
+    top: 350px;
+    left: 200px;
     width: 135px;
+    transform-origin: left bottom;
+    transform: rotate(0deg);
 }
 
 img#body {
@@ -29,7 +31,7 @@ img#face {
 
 img#Li {
     position: absolute;
-    top: 230px;
-    left: 1000px;
+    top: 130px;
+    left: 1300px;
     display: none;
 }

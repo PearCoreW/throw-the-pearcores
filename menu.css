@@ -1,0 +1,14 @@
+div#LNN {
+    display: grid;
+}
+
+img#body {
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+img#face {
+    position: relative;
+    top: -240px;
+    left: 90px;
+}
