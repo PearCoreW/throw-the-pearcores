@@ -11,12 +11,12 @@ new Image().src = "angry.jpg";
 new Image().src = "fxxk.jpg";
 new Image().src = "get.jpg";
 
-new Audio().src = "eat.mp3";
-new Audio().src = "fly.mp3";
-new Audio().src = "!.mp3";
-new Audio().src = "angry.mp3";
-new Audio().src = "fxxk.mp3";
-new Audio().src = "get.mp3";
+new Audio().src = "eat.ogg";
+new Audio().src = "fly.ogg";
+new Audio().src = "!.ogg";
+new Audio().src = "angry.ogg";
+new Audio().src = "fxxk.ogg";
+new Audio().src = "get.ogg";
 
 window.onload = function() {
     document.getElementById("action").setAttribute("onclick","action()");
@@ -35,12 +35,12 @@ async function action() {
     soundLi.play();
     Li.style.display = "grid";
     await sleep(1500);
-    soundLi.src = "eat.mp3";
+    soundLi.src = "eat.ogg";
     soundLi.play();
     await sleep(2000);
     Li.src = "LiHe.png";
     await sleep(1000);
-    soundLi.src = "fly.mp3";
+    soundLi.src = "fly.ogg";
     soundLi.play();
 
     var count = 0;
@@ -59,12 +59,12 @@ async function action() {
     }
     await sleep(2000);
     face.src = "angry.jpg";
-    soundLNN.src = "angry.mp3";
+    soundLNN.src = "angry.ogg";
     soundLNN.play();
     Li.style.left = "1100px";
     Li.style.top = "130px";
     await sleep(1000);
-    soundLi.src = "fly.mp3";
+    soundLi.src = "fly.ogg";
     soundLi.play();
     count = 0;
     while(true) {
@@ -78,18 +78,18 @@ async function action() {
     }
     await sleep(1000);
     face.src = "fxxk.jpg";
-    soundLNN.src = "fxxk.mp3";
+    soundLNN.src = "fxxk.ogg";
     soundLNN.play();
     await sleep(500);
     Li.style.left = "1100px";
     Li.style.top = "130px";
     await sleep(800);
-    soundLi.src = "fly.mp3";
+    soundLi.src = "fly.ogg";
     soundLi.play();
     count = 0;
     while(true) {
         if(Li.style.left == "200px") {
-            soundLi.src = "get.mp3";
+            soundLi.src = "get.ogg";
             soundLi.play();
             face.src = "get.jpg";
             let countLNN = -1;
